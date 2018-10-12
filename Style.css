@@ -1,0 +1,359 @@
+body {
+    background-color: lightsalmon;
+}
+.tt {
+  background-image: url("Finale2.png");
+  background-color: #ffffff; 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: auto;
+  height: auto;
+  background-size: 900px 650px;
+  position: absolute;
+  background-position: bottom right;
+  margin: 70px; 
+}
+
+.s { 
+display: grid; 
+grid-template-columns:repeat(3,[col] 1fr);
+grid-template-rows: repeat(8, [row] 1fr);
+grid-gap: 10px;  
+}
+.node:hover {
+  cursor: pointer; 
+}
+
+
+.corner {
+  position: absolute;
+  top:-50px;
+  right:-250px;
+  width:120px;
+
+}
+
+@import url(https://fonts.googleapis.com/css?family=BenchNine:700);
+.snip1582 {
+  background-color: #ff800c;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'BenchNine', Arial, sans-serif;
+  font-size: 1em;
+  font-size: 22px;
+  line-height: 1em;
+  margin: 15px 40px;
+  outline: none;
+  padding: 12px 40px 10px;
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.snip1582:before,
+.snip1582:after {
+  border-color: transparent;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+  border-style: solid;
+  border-width: 0;
+  content: "";
+  height: 24px;
+  position: absolute;
+  width: 24px;
+}
+
+.snip1582:before {
+  border-color:#ff800c;
+  border-top-width: 2px;
+  left: 0px;
+  top: -5px;
+}
+
+.snip1582:after {
+  border-bottom-width: 2px;
+  border-color:#ff800c;
+  bottom: -5px;
+  right: 0px;
+}
+
+
+.snip1582:hover:before,
+.snip1582.hover:before,
+.snip1582:hover:after,
+.snip1582.hover:after {
+  height: 100%;
+  width: 100%;
+}
+
+
+
+
+body {
+  background-color: white;
+  padding: 50px 0;
+
+}
+
+.picture {
+    height: 60px;
+    width: 40px; 
+}
+
+
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+
+.container .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color:transparent;
+  color:transparent;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container .btn:hover {
+  background-color:transparent;
+}
+
+/* Container needed to position the button. Adjust the width as needed */
+.container2 {
+  position: relative;
+  width: 50%;
+}
+
+/* Make the image responsive */
+.container2 img {
+  width: 100%;
+  height: auto;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.container2 .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color:transparent;
+  color:transparent;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container2 .btn:hover {
+  background-color:transparent;
+}
+
+/* Container needed to position the button. Adjust the width as needed */
+.container3 {
+  position: relative;
+  width: 50%;
+}
+
+/* Make the image responsive */
+.container3 img {
+  width: 100%;
+  height: auto;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.container3 .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color:transparent;
+  color:transparent;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container3 .btn:hover {
+  background-color:transparent;
+}
+
+/* Container needed to position the button. Adjust the width as needed */
+.container4 {
+  position: relative;
+  width: 50%;
+}
+
+/* Make the image responsive */
+.container4 img {
+  width: 100%;
+  height: auto;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.container4 .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color:transparent;
+  color:transparent;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container4 .btn:hover {
+  background-color:transparent;
+}
+
+/* Container needed to position the button. Adjust the width as needed */
+.container5 {
+  position: relative;
+  width: 50%;
+}
+
+/* Make the image responsive */
+.container5 img {
+  width: 100%;
+  height: auto;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.container5 .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color:transparent;
+  color: transparent;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container5 .btn:hover {
+  background-color:transparent;
+}
+
+/* Container needed to position the button. Adjust the width as needed */
+.container6 {
+  position: relative;
+  width: 50%;
+}
+
+/* Make the image responsive */
+.container6 img {
+  width: 100%;
+  height: auto;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.container6 .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color:transparent;
+  color:transparent;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container6 .btn:hover {
+  background-color:transparent;
+}
+
+/* Container needed to position the button. Adjust the width as needed */
+.container7 {
+  position: relative;
+  width: 50%;
+}
+
+/* Make the image responsive */
+.container7 img {
+  width: 100%;
+  height: auto;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.container7 .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color:transparent;
+  color:transparent;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container7 .btn:hover {
+  background-color:transparent;
+}
+/* Container needed to position the button. Adjust the width as needed */
+.indkøb {
+  position: relative;
+  width: 50%;
+}
+
+/* Make the image responsive */
+.indkøb img {
+  width: 100%;
+  height: auto;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.indkøb .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color:transparent;
+  color:transparent;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.indkøb .btn:hover {
+  background-color:transparent;
+}
